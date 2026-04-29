@@ -23,12 +23,12 @@ def main():
     data_path = os.path.join(current_dir, "data", "Corporate_Financial_Risk_Assessment_Data.csv")
 
     if not os.path.exists(data_path):
-        print(f"❌ [ERROR] Data file not found at: {data_path}")
+        print(f" [ERROR] Data file not found at: {data_path}")
         print("Please check if the file is inside the 'data' folder and spelled correctly.")
         return
 
     df = pd.read_csv(data_path)
-    print(f"✅ [SUCCESS] Loaded dataset: {data_path}")
+    print(f" [SUCCESS] Loaded dataset: {data_path}")
 
     # --- INIT SYSTEMS ---
     git = GitManager()
