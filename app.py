@@ -38,7 +38,7 @@ def main():
     # --- STEP 1: PRE-ANALYSIS ---
     pre = PreData(df)
     pre_info = pre.basic_info()
-    print(f"📊 [INFO] Initial Shape: {pre_info['shape']}")
+    print(f" [INFO] Initial Shape: {pre_info['shape']}")
 
     # --- STEP 2: PROCESSING ---
     processor = ProcessData(df)
@@ -73,8 +73,9 @@ def main():
     report.save_all(folder="report_outputs")
 
     # --- STEP 5: HOUSEKEEPING & GIT ---
-    trash.safe_delete("old_model_results.csv")
-    git.auto_commit(f"EDA pipeline executed. Processed {len(df_clean)} rows.")
+    #trash.safe_delete("old_model_results.csv")
+    # Change the message each time
+    git.auto_commit("feat: integrate FastAPI loan service and standardized reporting")
     print(" Pipeline complete! Reports generated in /report_outputs")
 
 
