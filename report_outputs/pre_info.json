@@ -1,0 +1,50 @@
+{
+    "shape": [
+        5000,
+        20
+    ],
+    "columns": [
+        "Company_ID",
+        "Date",
+        "Industry_Sector",
+        "Total_Assets",
+        "Total_Liabilities",
+        "Current_Assets",
+        "Current_Liabilities",
+        "Net_Income",
+        "Revenue",
+        "Operating_Income",
+        "Cash_Flow",
+        "Debt_Equity_Ratio",
+        "Return_on_Assets",
+        "Working_Capital_Ratio",
+        "Stock_Price_Close",
+        "Volatility_Index",
+        "GDP_Growth_Rate",
+        "Interest_Rate",
+        "Inflation_Rate",
+        "Financial_Risk_Label"
+    ],
+    "dtypes": {
+        "Company_ID": "str",
+        "Date": "str",
+        "Industry_Sector": "str",
+        "Total_Assets": "float64",
+        "Total_Liabilities": "float64",
+        "Current_Assets": "float64",
+        "Current_Liabilities": "float64",
+        "Net_Income": "float64",
+        "Revenue": "float64",
+        "Operating_Income": "float64",
+        "Cash_Flow": "float64",
+        "Debt_Equity_Ratio": "float64",
+        "Return_on_Assets": "float64",
+        "Working_Capital_Ratio": "float64",
+        "Stock_Price_Close": "float64",
+        "Volatility_Index": "float64",
+        "GDP_Growth_Rate": "float64",
+        "Interest_Rate": "float64",
+        "Inflation_Rate": "float64",
+        "Financial_Risk_Label": "int64"
+    }
+}
